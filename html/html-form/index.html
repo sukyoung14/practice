@@ -3,21 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>HTML 실습</title>
   </head>
   <body>
     <form action="#">
       <div>
-        <label for="">제목 : </label>
-        <input type="text" name="text" placeholder="메모 제목을 입력하세요" />
+        <label
+          >제목 :
+          <input type="text" name="text" placeholder="메모 제목을 입력하세요"
+        /></label>
       </div>
       <div>
-        <label for="">내용 : </label>
-        <textarea
-          name="textarea"
-          id=""
-          placeholder="메모 내용을 입력하세요"
-        ></textarea>
+        <label
+          >내용 :
+          <textarea
+            name="textarea"
+            id="textarea"
+            placeholder="메모 내용을 입력하세요"
+          ></textarea>
+        </label>
       </div>
       <input type="submit" value="메모저장" />
     </form>
@@ -25,26 +29,54 @@
     <h1>숙소 예약하기</h1>
     <form action="#">
       <div>
-        <label for="">체크인 : </label>
-        <input type="date" name="dt1" placeholder="연도-월-일" /><br />
-        <label for="">체크아웃 : </label>
-        <input type="date" name="dt2" placeholder="연도-월-일" /><br />
-        <label for="">성인 : </label>
-        <input type="number" name="num1" placeholder="1" min="1" /><br />
-        <label for="">어린이 : </label>
-        <input type="number" name="num2" placeholder="0" min="0" /><br />
-        <label for="">선호 객실 타입 </label><br />
-        <input type="radio" name="radio" id="" value="1" />스탠다드
-        <input type="radio" name="radio" id="" value="2" />디럭스
-        <input type="radio" name="radio" id="" value="3" />스위트
-        <br />
-        <label for="">요청사항 : </label>
-        <textarea
-          name="textarea"
-          id=""
-          placeholder="특별히 요청하고 싶은 내용을 적어주세요"
-        ></textarea>
-        <br />
+        <label>
+          체크인 :
+          <input type="date" name="dt1" placeholder="연도-월-일" />
+        </label>
+      </div>
+      <div>
+        <label>
+          체크아웃 :
+          <input type="date" name="dt2" placeholder="연도-월-일" />
+        </label>
+      </div>
+      <div>
+        <label>
+          성인 :
+          <input type="number" name="num1" placeholder="1" min="1" />
+        </label>
+      </div>
+      <div>
+        <label>
+          어린이 :
+          <input type="number" name="num2" placeholder="0" min="0" />
+        </label>
+      </div>
+      <div>
+        선호 객실 타입 <br />
+        <label>
+          <input type="radio" name="room" id="room1" value="1" />스탠다드
+        </label>
+        <label>
+          <input type="radio" name="room" id="room2" value="2" />디럭스
+        </label>
+        <label>
+          <input type="radio" name="room" id="room3" value="3" />스위트
+        </label>
+      </div>
+      <div>
+        <label>
+          요청사항 :
+          <textarea
+            name="textarea"
+            id="textarea"
+            placeholder="특별히 요청하고 싶은 내용을 적어주세요"
+            rows="5"
+            cols="50"
+          ></textarea>
+        </label>
+      </div>
+      <div>
         <input type="submit" value="예약하기" />
       </div>
     </form>

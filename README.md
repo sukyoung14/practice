@@ -3,4 +3,4 @@
 ## 실습
 
 - 2025-09-10 : gitHub 원격 저장소 연결
-- 2025-09-11 : HTML
+- 2025-09-11 : [HTML](https://github.com/sukyoung14/practice/blob/main/html/html-basic/index.html)
