@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="#">
+      <div>
+        <label for="">제목 : </label>
+        <input type="text" name="text" placeholder="메모 제목을 입력하세요" />
+      </div>
+      <div>
+        <label for="">내용 : </label>
+        <textarea
+          name="textarea"
+          id=""
+          placeholder="메모 내용을 입력하세요"
+        ></textarea>
+      </div>
+      <input type="submit" value="메모저장" />
+    </form>
+    <hr />
+    <h1>숙소 예약하기</h1>
+    <form action="#">
+      <div>
+        <label for="">체크인 : </label>
+        <input type="date" name="dt1" placeholder="연도-월-일" /><br />
+        <label for="">체크아웃 : </label>
+        <input type="date" name="dt2" placeholder="연도-월-일" /><br />
+        <label for="">성인 : </label>
+        <input type="number" name="num1" placeholder="1" min="1" /><br />
+        <label for="">어린이 : </label>
+        <input type="number" name="num2" placeholder="0" min="0" /><br />
+        <label for="">선호 객실 타입 </label><br />
+        <input type="radio" name="radio" id="" value="1" />스탠다드
+        <input type="radio" name="radio" id="" value="2" />디럭스
+        <input type="radio" name="radio" id="" value="3" />스위트
+        <br />
+        <label for="">요청사항 : </label>
+        <textarea
+          name="textarea"
+          id=""
+          placeholder="특별히 요청하고 싶은 내용을 적어주세요"
+        ></textarea>
+        <br />
+        <input type="submit" value="예약하기" />
+      </div>
+    </form>
+  </body>
+</html>
