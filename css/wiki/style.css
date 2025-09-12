@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  padding-left: 20px;
+}
+.font-weight {
+  font-weight: bold;
+}
+h2 {
+  margin-bottom: 50px;
+}
+
+div {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.footer {
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  left: 45%;
+}
+.rem {
+  font-size: 0.8rem;
+}

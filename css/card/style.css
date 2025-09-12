@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 20px;
+  padding: 0px;
+}
+.card-container {
+  border-radius: 2rem;
+  border-color: gray;
+  border-style: dotted;
+}
+.card-header {
+  font-size: 40px;
+  font-weight: bold;
+}
+.card-body {
+  font-size: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+span {
+  padding: 20px;
+}
