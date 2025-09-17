@@ -24,3 +24,7 @@ div {
 .rem {
   font-size: 0.8rem;
 }
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
