@@ -1,9 +1,9 @@
 import React from "react";
-import UserCard from "./UserCard/UserCard";
+import Form from "./Signup/Form";
 export default function Main() {
   return (
     <>
-      <UserCard></UserCard>
+      <Form></Form>
     </>
   );
 }
