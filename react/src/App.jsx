@@ -4,12 +4,12 @@ import Header from "./components/Header";
 import Main from "./components/Main";
 import Form from "./components/EventHandling/Form";
 import UserCardContainer from "./components/UserCard/UserCardContainer";
-import Carts from "./components/Carts/Carts";
-import ProductContainer from "./components/ProductSort/ProductContainer";
+import Container from "./components/PostComments/Container";
+import MovieSearch from "./components/TMDB/MovieSearch";
 export default function App() {
   return (
     <div>
-      <ProductContainer></ProductContainer>
+      <MovieSearch></MovieSearch>
     </div>
   );
 }

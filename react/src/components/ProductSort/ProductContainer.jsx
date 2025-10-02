@@ -15,21 +15,21 @@ export default function ProductContainer() {
   }, []);
   function handleClick(sortBy, order) {
     async function getproductSort(sortBy, order) {
-      const sortedProducts = [...products].sort((a, b) => {
-        if (a[key] < b[key]) {
-          return order === "asc" ? -1 : 1;
-        }
-        if (a[key] > b[key]) {
-          return order === "asc" ? 1 : -1;
-        }
-        return 0;
-      });
-      setproducts(sortedProducts);
-      // const url = ${BASE_URL}/products?sortBy=${sortBy}&order=${order};
-      // const response = await axios.get(url);
-      // const data = response["data"];
-      // console.log(data);
-      // setproducts(data["products"]);
+      // const sortedProducts = [...products].sort((a, b) => {
+      //   if (a[key] < b[key]) {
+      //     return order === "asc" ? -1 : 1;
+      //   }
+      //   if (a[key] > b[key]) {
+      //     return order === "asc" ? 1 : -1;
+      //   }
+      //   return 0;
+      // });
+      // setproducts(sortedProducts);
+      const url = `${BASE_URL}/products?sortBy=${sortBy}&order=${order}`;
+      const response = await axios.get(url);
+      const data = response["data"];
+      console.log(data);
+      setproducts(data["products"]);
     }
     getproductSort(sortBy, order);
   }
