@@ -5,11 +5,11 @@ import Main from "./components/Main";
 import Form from "./components/EventHandling/Form";
 import UserCardContainer from "./components/UserCard/UserCardContainer";
 import Carts from "./components/Carts/Carts";
-import QuoteContainer from "./components/DummyJSON/QuoteContainer";
+import ProductContainer from "./components/ProductSort/ProductContainer";
 export default function App() {
   return (
     <div>
-      <Main></Main>
+      <ProductContainer></ProductContainer>
     </div>
   );
 }
