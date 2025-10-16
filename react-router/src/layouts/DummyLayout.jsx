@@ -5,6 +5,7 @@ export default function DummyLayout() {
   return (
     <div>
       <div className="flex gap-4 p-2 border-2 border-gray-300">
+        <Link to="/">홈페이지</Link>
         <Link to="/dummy">DummyJSON 홈페이지</Link>
         <Link to="/dummy/carts">장바구니 페이지</Link>
         <Link to="/dummy/posts">게시글 페이지</Link>
