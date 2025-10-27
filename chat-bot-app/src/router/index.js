@@ -7,6 +7,7 @@ import Login from "../page/Login";
 import AuthLayout from "../layout/AuthLayout";
 import Chat from "../page/Chat";
 import ChatList from "../page/ChatList";
+import Etc from "../page/Etc";
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         Component: Home,
+      },
+      {
+        path: "/etc",
+        Component: Etc,
       },
       {
         path: "/signup",

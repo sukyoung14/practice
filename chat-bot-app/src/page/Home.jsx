@@ -5,6 +5,7 @@ export default function Home() {
   return (
     <div>
       <div>Home</div>
+      <Link to="/etc">etc</Link>
     </div>
   );
 }
